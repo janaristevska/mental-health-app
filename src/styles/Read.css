@@ -1,0 +1,139 @@
+.wrapperanx,
+.wrapperdep,
+.wrapperins {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.accordion {
+    width: 900px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.iteman,
+.itemdep,
+.itemi {
+    background-color: #f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.titlean,
+.titledep,
+.titlein {
+    color: #85662b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.answer {
+    color: #8b7f75;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.wrapperanx h2,
+.wrapperdep h2,
+.wrapperins h2 {
+    font-size: 20px;
+}
+
+.wrapperanx::before {
+    content: "";
+    background-image: url('../images/anxbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.wrapperdep::before {
+    content: "";
+    background-image: url('../images/depp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.wrapperins::before {
+    content: "";
+    background-image: url('../images/sky2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.backa,
+.backd,
+.backi {
+    position: absolute;
+    margin-left: -1370px;
+    margin-top: -870px;
+    font-size: 50px;
+    color: white;
+}
+
+.reads {
+    margin-left: 270px;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: -150px;
+    font-family: 'Papyrus';
+    font-weight: bold;
+}
+
+
+.readsd {
+    margin-left: 190px;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: -150px;
+    font-family: 'Papyrus';
+    font-weight: bold;
+}
+
+.readsi {
+    margin-left: 190px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+    margin-top: -150px;
+    font-family: 'Papyrus';
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.service button {
+    background-color: rgb(244, 244, 141);
+    width: 400px;
+    margin-left: 550px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.service button:hover {
+    background-color: rgb(240, 187, 71);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.service {
+    margin-top: 100px;
+}

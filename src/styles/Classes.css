@@ -1,0 +1,11 @@
+.classes img {
+    margin: 15px;
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    z-index: 3;
+}
+
+.classes h5 {
+    margin: 15px;
+}

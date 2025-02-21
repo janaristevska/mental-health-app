@@ -1,0 +1,350 @@
+.symptoms-wrapper {
+    color: black;
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: whitesmoke
+}
+
+.symptoms-container {
+    justify-content: space-between;
+    align-items: flex-end;
+    align-items: right;
+}
+
+
+.symptoms-title {
+    position: relative;
+    z-index: 1;
+}
+
+.symptoms-title h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.video-container {
+    width: 470px;
+    height: 630px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(0, 0, 0, 0.12);
+    margin-top: -490px;
+    margin-left: 900px;
+}
+
+
+
+.flexColStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+:root {
+    --primary: #1f3e72;
+    --secondary: rgba(255, 255, 255, 0.78);
+    --black: #131110;
+    --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+    --blue: #4066ff;
+    --lightBlue: #eeeeff;
+    --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.paddings {
+    padding: 1.5rem;
+}
+
+.innerWidth {
+    width: 100%;
+}
+
+
+
+.flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexColCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexColStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexColEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.primaryText {
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.secondaryText {
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
+}
+
+.orangeText {
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* media queries */
+@media (min-width: 1536px) {
+    .innerWidth {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 640px) {
+    .paddings {
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 1280px),
+(min-width: 768px) {
+    .paddings {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .primaryText {
+        font-size: 1.5rem;
+    }
+
+    .orangeText {
+        font-size: 1.2rem;
+    }
+}
+
+.symptoms-description {
+    width: 500px;
+    margin-right: 900px;
+    margin-top: 300px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.orange-circle {
+    height: 4rem;
+    width: 4rem;
+    background-color: grey;
+    border-radius: 100%;
+    position: absolute;
+    right: -2rem;
+    top: -1rem;
+    z-index: -1;
+}
+
+
+.depression-comparison-wrapper {
+    color: black;
+    padding: 2rem;
+}
+
+.depression-comparison-wrapper h2 {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+    font-weight: 550;
+}
+
+.comparison-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.comparison-column {
+    flex: 1;
+    max-width: 400px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.comparison-column:hover {
+    transform: translateY(-5px);
+}
+
+.comparison-column h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.comparison-column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.left-column {
+    margin-right: 1rem;
+}
+
+.right-column {
+    margin-left: 1rem;
+}
+
+
+.comparison-container h3 {
+    font: italic;
+}
+
+.depression-causes-women-wrapper {
+    color: #333;
+    padding: 2rem;
+}
+
+.depression-causes-women-wrapper h2 {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+}
+
+.causes-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.cause {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.cause:hover {
+    transform: translateY(-5px);
+}
+
+.cause h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #1f3e72;
+}
+
+.cause p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.symptoms-wrapper .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section-heading {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title h3 {
+    color: #007BFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.read-more {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+.causes {
+    text-align: center;
+}
+
+.causes button {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgb(140, 205, 207);
+}
+
+.causes p {
+    text-align: justify;
+    align-items: center;
+}
+
+.causes {
+    float: left;
+    width: 750px;
+    border-right: 1px dashed gray;
+}
+
+.causes-men {
+    margin-left: -200px;
+}

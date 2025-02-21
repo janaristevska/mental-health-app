@@ -1,0 +1,86 @@
+.symptoms-container,
+.anxiety-symptoms-container,
+.depression-symptoms-container {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: 450px;
+    margin-bottom: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-heading {
+    font-size: 28px;
+    color: #333;
+}
+
+.content-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sub-heading {
+    font-size: 27px;
+    color: #333;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.symptom-list,
+.cause-list,
+.risk-factor-list,
+.complication-list {
+    list-style: none;
+    padding: 0;
+}
+
+.symptom-list li,
+.cause-list li,
+.risk-factor-list li,
+.complication-list li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 20px;
+}
+
+.symptom-list li:before,
+.risk-factor-list li:before,
+.cause-list li:before,
+.complication-list li:before {
+    content: '•';
+    color: rgb(166, 53, 186);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.sleep-symptoms-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+
+.content-section p {
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.content-section ul li {
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}

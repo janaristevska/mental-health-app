@@ -1,0 +1,69 @@
+.slide .box {
+    display: flex !important;
+}
+
+.slide .img {
+    width: 350px;
+    height: 350px;
+    max-width: 350px;
+}
+
+.slide img {
+    width: 373px;
+    height: 100%;
+}
+
+.slide .text {
+    width: 60%;
+    padding: 60px 0 70px 130px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.slick-dots li button::before {
+    font-size: 20px;
+}
+
+.CardTwo.slide .box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.CardTwo.slide .img {
+    padding: 10px;
+}
+
+.CardTwo.slide .img img:hover {
+    transform: none;
+}
+
+
+.img {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.img img {
+    transition: 0.5s;
+}
+
+.img img:hover {
+    transform: scale(1.1);
+}
+
+.slide {
+    padding: 40px;
+    color: #000;
+    right: 0;
+}
+
+.text span {
+    color: crimson;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.text h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 20px 0;
+}

@@ -1,0 +1,25 @@
+.anxiety-symptoms-container,
+.anxiety-disorders-page,
+.meditation-container,
+.anxiety-tips-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.anxiety-symptoms-container::before,
+.anxiety-disorders-page::before,
+.meditation-container::before,
+.anxiety-tips-container::before {
+    content: "";
+    background-image: url('../images/anxbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}

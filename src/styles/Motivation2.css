@@ -1,0 +1,95 @@
+.motivation-page .titlee0 {
+    margin-top: 35px;
+    margin-left: 730px;
+    color: black;
+}
+
+.motivation-page .hh1 {
+    margin-left: 650px;
+    margin-top: 70px;
+    font-family: 'Papyrus';
+    font-weight: bold;
+}
+
+
+
+.quote-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 570px;
+    margin-top: 30px;
+    width: 513px;
+}
+
+.quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.motivation-page button {
+    background-color: rgb(166, 53, 186);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.motivation-page button:hover {
+    background-color: #d8a1dc;
+}
+
+.motivation-page .ptog {
+    margin-left: 310px;
+    margin-right: 61px;
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.motivation-page .titlee1 {
+    margin-left: 170px;
+}
+
+.motivation-page .titlee2 {
+    margin-left: 210px;
+}
+
+.motivation-page .titlee3 {
+    margin-left: 310px;
+}
+
+.motivation-page .titlee4 {
+    margin-left: 330px;
+}
+
+.motivation-page .titlee5 {
+    font-weight: bold;
+}
+
+.motivation-page ul li {
+    text-align: justify;
+}
+
+.motivation-page ol {
+    margin-bottom: 50px;
+}
+
+.videos1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 310px;
+    margin-top: 80px;
+}
+
+.videos1 video {
+    width: 300px;
+    height: 200px;
+}
